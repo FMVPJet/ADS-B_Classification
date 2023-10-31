@@ -1,0 +1,28 @@
+exp_name: ADS-B
+
+n_gpu_use: 0
+num_epochs: 100
+batch_size: 16
+log_interval: 10
+
+dataloader:
+  data_path: "C:\\Users\\Jet\\Documents\\G\\Project\\ADSB_Dataset\\data\\ADSB"
+  train_size: 0.8
+  random_state: 42
+
+
+optimizer:
+  lr: 1e-3
+  decay: 1e-4
+
+model:
+  in_channels: 2
+  base_filters: 128
+  kernel_size: 16
+  stride: 2
+  n_block: 24
+  groups: 32
+  n_classes: 100
+  downsample_gap: 6
+  increasefilter_gap: 12
+  verbose: False
