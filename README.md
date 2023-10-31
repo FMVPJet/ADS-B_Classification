@@ -62,11 +62,6 @@ The Project contains the following modules:
     │   ├── STEP03_onnx_eval.py
     │   └── STEP04_onnx2trt.py
     ├── experiments/
-    │   └── ADS-B/
-    │       ├── checkpoints/
-    │       ├── deploy/
-    │       ├── images/
-    │       └── logs/
     ├── infers/
     │   └── ADSB_infer.py
     ├── main_test.py
