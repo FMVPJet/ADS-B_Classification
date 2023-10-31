@@ -95,21 +95,21 @@ The Project contains the following modules:
 
 | File                              | Summary                   |
 | ---                               | ---                       |
-| [main_test.py]({file})            | Project test entrance     |
-| [main_train.py]({file})           | Project train entrance    |
-| [config.yaml]({file})             | Config file               |
-| [my_ADSB_dl.py]({file})           | Customized dataloader     |
-| [STEP01_torch2onnx.py]({file})    | PyTorch checkpoint to ONNX file   |
-| [STEP02_onnx_simplify.py]({file}) | ONNX file simpl;ify               |
-| [STEP03_onnx_eval.py]({file})     | ONNX file and PyTorch checkpoint evaluation                |
-| [STEP04_onnx2trt.py]({file})      | ONNX file to TensorRT (TODO) |
-| [ADSB_infer.py]({file})           | Main infer|
-| [ADSB_model.py]({file})           | Porject model |
-| [ADSB_trainer.py]({file})         | Main trainer|
-| [loss_utils.py]({file})           | Loss function utils|
-| [utils.py]({file})                | Other utils|
-| [utils_common.py]({file})         | Common utils|
-| [utils_visualize.py]({file})      | Visualize utils|
+| [main_test.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/main_test.py})            | Project test entrance     |
+| [main_train.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/main_train.py})           | Project train entrance    |
+| [config.yaml]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/configs/config.yaml})             | Config file               |
+| [my_ADSB_dl.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/data_loaders/my_ADSB_dl.py})           | Customized dataloader     |
+| [STEP01_torch2onnx.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/deploy/STEP01_torch2onnx.py})    | PyTorch checkpoint to ONNX file   |
+| [STEP02_onnx_simplify.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/deploy/STEP02_onnx_simplify.py}) | ONNX file simpl;ify               |
+| [STEP03_onnx_eval.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/deploy/STEP03_onnx_eval.py})     | ONNX file and PyTorch checkpoint evaluation                |
+| [STEP04_onnx2trt.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/deploy/STEP04_onnx2trt.py})      | ONNX file to TensorRT (TODO) |
+| [ADSB_infer.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/infers/ADSB_infer.py})           | Main infer|
+| [ADSB_model.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/models/ADSB_model.py})           | Porject model |
+| [ADSB_trainer.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/trainers/ADSB_trainer.py})         | Main trainer|
+| [loss_utils.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/utils/loss_utils.py})           | Loss function utils|
+| [utils.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/utils/utils.py})                | Other utils|
+| [utils_common.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/utils/utils_common.py})         | Common utils|
+| [utils_visualize.py]({https://github.com/FMVPJet/ADS-B_Classification/blob/main/utils/utils_visualize.py})      | Visualize utils|
 
 </details>
 
@@ -128,7 +128,7 @@ Download motion modules and put them under `ADS-B_Classification/data/`.
 
 1. Clone the ADS-B_Classification repository:
 ```sh
-git clone ../ADS-B_Classification
+git clone https://github.com/FMVPJet/ADS-B_Classification.git
 ```
 
 2. Change to the project directory:
@@ -162,13 +162,17 @@ python main_test.py
 ## 📄 License
 
 
-This project is protected under the [MIT](https://github.com/FMVPJet/ssps_ubss/blob/main/LICENSE) License. For more details, refer to the [LICENSE](https://github.com/FMVPJet/ssps_ubss/blob/main/LICENSE) file.
+This project is protected under the [MIT](https://github.com/FMVPJet/ADS-B_Classification/blob/main/LICENSE) License.
+ For more details, refer to the [LICENSE](https://github.com/FMVPJet/ADS-B_Classification/blob/main/LICENSE) file.
 
 ---
 
 ## 👏 Acknowledgments
 
 - *[JetKwok](https://fmvpjet.github.io/)*
+
+- *README.md file is created by [README-AI](https://github.com/eli64s/readme-ai).*
+
 
 [**Return**](#Top)
 
